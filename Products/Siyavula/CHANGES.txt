@@ -1,0 +1,5 @@
+Siyavula-0.1.1 (18 Aug 2009)
+  - fixes for forum links that were broken by other development
+
+Siyavula-0.1 (14 May 2009)
+  - Intitial version

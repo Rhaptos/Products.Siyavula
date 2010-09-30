@@ -1,0 +1,33 @@
+<configure xmlns="http://namespaces.zope.org/zope" 
+           xmlns:browser="http://namespaces.zope.org/browser" 
+           xmlns:five="http://namespaces.zope.org/five"> 
+  
+  <browser:page
+        for="*"
+        name="siyavula"
+        class=".views.SiyavulaView"
+        permission="zope2.View"
+        />
+
+  <browser:page
+        for="*"
+        name="siyavula-account"
+        class=".views.SiyavulaAccountView"
+        permission="zope2.View"
+        />
+
+  <browser:page
+        for="*"
+        name="siyavula-lens-count"
+        class=".views.SiyavulaLensCount"
+        permission="zope2.Public"
+        />
+
+  <browser:page
+        for="*"
+        name="siyavula-forum"
+        class=".views.SiyavulaForum"
+        permission="zope2.Public"
+        />
+
+</configure>
