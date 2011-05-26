@@ -1,3 +1,6 @@
+Siyavula-0.2 (04 May 2011)
+  - implement siyavula specific browser views
+
 Siyavula-0.1.1 (18 Aug 2009)
   - fixes for forum links that were broken by other development
 
