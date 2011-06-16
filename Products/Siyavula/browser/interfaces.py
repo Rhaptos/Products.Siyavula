@@ -1,5 +1,5 @@
 from zope.interface import Interface
-from zope.app.publisher.interfaces.browser import IBrowserView
+from zope.publisher.interfaces.browser import IBrowserView
 
 class ISiyavulaView(IBrowserView):
     """ 
